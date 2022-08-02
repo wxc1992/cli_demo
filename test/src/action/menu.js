@@ -1,0 +1,1 @@
+export const addMenuTitle = menuTitle => ({type: "MENU_SAGA", payload: menuTitle});

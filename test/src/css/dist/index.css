@@ -1,0 +1,470 @@
+.self-title {
+  background: #fff;
+  font-size: 13px;
+  width: calc(100% + 48px);
+  margin-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.self-title .title-box {
+  margin-top: 8px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.self-title .home:hover {
+  color: #40a9ff !important;
+}
+.heightModal .ant-modal-body {
+  min-height: auto!important;
+}
+.formbox {
+  position: relative;
+  height: 100%;
+}
+.formbox .dynamic-delete-button {
+  margin-left: 10px;
+}
+.formbox .footerdiv {
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+.createhistoryLog {
+  font-size: 13px;
+}
+.flowindex {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.selectWarpf {
+  position: absolute;
+  right: 20px;
+  top: 60px;
+}
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+  padding: 8px !important;
+}
+.createFlowhedaer {
+  height: 50px;
+  padding: 0 20px;
+  line-height: 50px;
+  box-sizing: border-box;
+  background: #fff;
+}
+.createFlowhedaer .leftBox {
+  float: left;
+  width: 300px;
+  font-size: 14px;
+}
+.createFlowhedaer .rightBox {
+  float: right;
+}
+.createFlowForm {
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.createFlowFormInner {
+  width: 60%;
+  margin: 10px auto;
+}
+.dioBoxHeader {
+  height: 50px;
+  line-height: 50px;
+  text-align: left;
+  font-weight: bold;
+  width: 82px;
+  text-align: center;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.ant-modal-body {
+  padding: 10px !important;
+  padding-top: 5px !important;
+  min-height: 300px;
+}
+.ant-modal-body .ant-tabs-left .ant-tabs-nav .ant-tabs-tab {
+  margin: 0 0 8px 0 !important;
+}
+.ant-modal-body .stepBOx {
+  width: 100%;
+  margin: 0 auto;
+  background: #eaf9ff;
+  margin-bottom: 10px;
+  line-height: 100px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.ant-modal-body .stepBOx:hover {
+  box-shadow: 2px 2px 5px #ccc;
+}
+.ant-modal-body .stepBOxInner {
+  min-width: 100px;
+  text-align: left;
+}
+.ant-modal-body .bottombox {
+  margin: 10px auto;
+  text-align: center;
+}
+.flowboxWrap {
+  background-color: #f0f2f5;
+  overflow: hidden;
+}
+.flowboxWrap .scrolllbox {
+  width: 100%;
+}
+.flowboxWrap .flowBox {
+  margin: 0;
+  padding: 0;
+  min-width: 3000px;
+  list-style: none;
+  font-size: 13px;
+}
+.flowboxWrap .flowBox li {
+  float: left;
+  border-right: 1px solid #dedede;
+  box-sizing: border-box;
+  position: relative;
+  transition: all 0.5s linear;
+}
+.flowboxWrap .flowBox li:hover .connectline {
+  border-bottom: 1px solid #1b9aee;
+}
+.flowboxWrap .flowBox li:first-child {
+  text-align: center;
+  min-width: 200px;
+  padding: 0 20px;
+}
+.flowboxWrap .flowBox li:first-child .buttonName {
+  margin: 5px auto;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  cursor: pointer;
+  background-color: #fff;
+  transition: all 0.5s linear;
+}
+.flowboxWrap .flowBox li:first-child .buttonName:hover {
+  color: #1b9aee;
+}
+.flowboxWrap .flowBox li:last-child {
+  min-width: 200px;
+}
+.flowboxWrap .flowBox li:last-child .buttonName {
+  width: 120px;
+  margin: 5px auto;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  cursor: pointer;
+  background-color: #fff;
+  transition: all 0.5s linear;
+}
+.flowboxWrap .flowBox li:last-child .buttonName:hover {
+  color: #1b9aee;
+}
+.flowboxWrap .flowBox li .boxtitle {
+  height: 50px;
+  text-align: left;
+}
+.flowboxWrap .flowBox li .boxtitle span {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.flowboxWrap .flowBox li .childboxWrap {
+  position: relative;
+  z-index: 15;
+  height: 80px;
+  padding: 0 60px;
+  box-sizing: border-box;
+  width: auto;
+}
+.flowboxWrap .flowBox li .childboxWrap .childbox {
+  float: left;
+  padding: 5px 10px;
+  position: relative;
+  transition: all 0.5s linear;
+}
+.flowboxWrap .flowBox li .childboxWrap .childbox .buttonName {
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  cursor: pointer;
+  background-color: #fff;
+}
+.flowboxWrap .flowBox li .childboxWrap .childbox:hover .addchildbutton {
+  display: block;
+}
+.flowboxWrap .flowBox li .childboxWrap .childbox:hover .hovername {
+  border: 1px solid #1b9aee;
+  color: #1b9aee;
+}
+.flowboxWrap .flowBox li .childboxWrap .childbox:hover .connectline {
+  border-bottom: 1px solid #1b9aee;
+}
+.flowboxWrap .flowBox li .childboxWrap .childbox .addchildbutton {
+  position: absolute;
+  top: 10px;
+  z-index: 16;
+  display: none;
+}
+.flowboxWrap .flowBox li .childboxWrap .childbox .leftbutton {
+  left: -20px;
+}
+.flowboxWrap .flowBox li .childboxWrap .childbox .rightbutton {
+  right: -20px;
+}
+.flowboxWrap .flowBox li .nohover {
+  transition: all 0.5s linear;
+}
+.flowboxWrap .flowBox li .nohover:hover {
+  border: 1px solid #fff;
+  box-shadow: 2px 2px #ccc 10px;
+}
+.flowboxWrap .flowBox li .hovername {
+  transition: all 0.5s linear;
+}
+.flowboxWrap .flowBox li .hovername:hover {
+  border: 1px solid #1b9aee;
+  color: #1b9aee;
+}
+.flowboxWrap .flowBox li .connectline {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  height: 0px;
+  width: 100%;
+  z-index: 10;
+  border-bottom: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+.flowboxWrap .flowBox li .autoIcon {
+  position: absolute;
+  top: 55px;
+  left: 35px;
+  z-index: 16;
+}
+.flowboxWrap .flowBox li .addicon {
+  position: absolute;
+  right: -18px;
+  top: 53px;
+  z-index: 16;
+}
+.flowboxWrap .flowBox li .addicon:hover .addchildbutton {
+  display: none;
+}
+.flowboxWrap .flowBox li .ant-btn-icon-only > * {
+  font-size: 12px!important;
+}
+.createhistoryLogBox {
+  overflow-y: hidden;
+}
+.createhistoryLogBox .pipeline-instance_sidebar {
+  float: left;
+  width: 220px;
+  background-color: #fff;
+  height: calc(100vh - 146px);
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 40px;
+  overflow-y: scroll;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.createhistoryLogBox .pipeline-instance__content {
+  margin-left: 230px;
+  height: calc(100vh - 146px);
+  box-sizing: border-box;
+}
+.createhistoryLogBox .pipeline-instance__content .flow-groups {
+  position: relative;
+  height: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+.createhistoryLogBox .pipeline-instance__content .flow-groups .flow-group {
+  width: 240px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  overflow-y: auto;
+  padding-right: 20px;
+  border-right: 1px solid #e5e5e5;
+  box-sizing: border-box;
+}
+.createhistoryLogBox .pipeline-instance__content .flow-groups .flow-group .bottombox {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #8c8c8c;
+  padding: 0 10px;
+}
+.createhistoryLogBox .pipeline-instance__content .flow-groups .flow-group:hover .stage {
+  box-shadow: 2px 2px 4px #ccc;
+}
+.createhistoryLogBox .pipeline-instance__content .flow-groups .flow-group .toptitle {
+  height: 30px;
+  line-height: 30px;
+}
+.createhistoryLogBox .pipeline-instance__content .flow-groups .flow-group .stage {
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 10px;
+  padding-bottom: 0;
+  transition: all 0.3s linear;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.createhistoryLogBox .pipeline-instance__content .flow-groups .flow-group .stage .cardcenter {
+  height: 80px;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+}
+.createhistoryLogBox .pipeline-instance__content .flow-groups .flow-group .stage .cardcenter .centerbox {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.createhistoryLogBox .pipeline-instance__content .flow-groups .flow-group .stage .cardcenter .centerbottom {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+.createhistoryLogBox .pipeline-instance__content .flow-groups .flow-group .stage .cardfooter {
+  height: 40px;
+  line-height: 40px;
+}
+.createhistoryLogBox .pipeline-instance__content .flow-groups .flow-group .stage .cardfooter .leftbutton {
+  float: left;
+  text-align: left;
+}
+.createhistoryLogBox .pipeline-instance__content .flow-groups .flow-group .stage .cardfooter .rightbutton {
+  float: right;
+  text-align: right;
+  font-size: 14px;
+  color: #8c8c8c;
+}
+.seacher {
+  height: 60px;
+  line-height: 60px;
+  background-color: #fff;
+  padding: 0 20px;
+}
+.seacher .floatele {
+  float: left;
+  margin-right: 20px;
+}
+.configurationInfo textarea {
+  transition: unset!important;
+  width: 800px;
+  height: 600px;
+  resize: auto;
+  background-color: #2c2626;
+  color: #fff;
+}
+.logDrawer .ant-drawer-body {
+  padding: 0;
+}
+body,
+html {
+  background-color: #f0f2f5;
+}
+.stepDiv {
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+.stepDiv .stepbox {
+  width: 80px;
+  float: left;
+  height: 34px;
+  line-height: 34px;
+  position: relative;
+  margin-left: 5px;
+}
+.stepDiv .stepbox .line {
+  width: 67px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1px;
+  border: 1px solid #666;
+  border-radius: 2px;
+}
+.stepDiv .stepbox .line.error {
+  border: 1px solid #f00;
+  background-color: #f00;
+}
+.stepDiv .stepbox .line.success {
+  border: 1px solid #0084ff;
+  background-color: #0084ff;
+}
+.stepDiv .stepbox .stepspan {
+  position: relative;
+  height: 34px;
+  line-height: 34px;
+  float: left;
+  cursor: pointer;
+}
+.stepDiv .stepbox .stepspan .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  position: absolute;
+  border: 1px solid #666;
+  left: 0;
+  top: 50%;
+  cursor: pointer;
+  transform: translateY(-50%);
+  background-color: #666;
+}
+.stepDiv .stepbox .stepspan .dot.error {
+  border: 1px solid #f00;
+  background-color: #f00;
+}
+.stepDiv .stepbox .stepspan .dot.success {
+  border: 1px solid #0084ff;
+  background-color: #0084ff;
+}
+.stepDiv .stepbox .stepspan em {
+  font-style: normal;
+  position: absolute;
+  left: 0;
+  bottom: -13px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.stepDiv .stepbox .stepspan em.error {
+  color: #f00;
+}
+.cm-theme-dark .cm-editor {
+  min-height: 300px!important;
+  overflow: hidden!important;
+}
+.cm-theme-dark .ͼ4 .cm-line {
+  width: 100% !important;
+  word-wrap: break-word !important;
+}
+.peizhicodemirrow .CodeMirror-foldgutter {
+  width: 0!important;
+}

@@ -1,0 +1,563 @@
+.self-title{
+    background: #fff;
+    font-size: 13px;
+    width: calc( 100% + 48px );
+    // position: relative;
+    margin-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    .title-box{
+      margin-top: 8px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .home:hover{
+      color: #40a9ff !important;
+    }
+  }
+.heightModal{
+    .ant-modal-body{
+        min-height: auto!important;
+    }
+}
+.formbox{
+    position: relative;
+    height: 100%;
+    .dynamic-delete-button{
+        margin-left: 10px;
+    }
+    .footerdiv{
+        // position: absolute;
+        // bottom: 10px;
+        // left: 50%;
+        // transform: translateX(-50%);
+        margin-top:20px;
+        text-align: center;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+}
+
+.createhistoryLog{
+    font-size: 13px;
+}
+.flowindex {
+    // background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.selectWarpf {
+    position: absolute;
+    right: 20px;
+    top: 60px;
+}
+.ant-table-thead>tr>th,
+.ant-table-tbody>tr>td,
+.ant-table tfoot>tr>th,
+.ant-table tfoot>tr>td {
+    padding: 8px !important;
+}
+.flowindex .ant-table-thead>tr>th {
+    // background: #e6f7ff !important;
+}
+.createFlowhedaer {
+    height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
+    box-sizing: border-box;
+    background: #fff;
+    .leftBox{
+        float: left;
+        width: 300px;
+        font-size: 14px;
+    }
+    .rightBox{
+        float: right;
+    }
+
+}
+.createFlowForm {
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.createFlowFormInner {
+    width: 60%;
+    margin: 10px auto;
+}
+.dioBoxHeader {
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    font-weight: bold;
+    width: 82px;
+    text-align: center;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.ant-modal-body {
+    padding: 10px !important;
+    padding-top: 5px !important;
+    // min-height: 300px;
+    .ant-tabs-left {
+        .ant-tabs-nav {
+            .ant-tabs-tab {
+                margin: 0 0 8px 0 !important;
+            }
+        }
+    }
+    .stepBOx {
+        width: 100%;
+        margin: 0 auto;
+        background: #eaf9ff;
+        margin-bottom: 10px;
+        line-height: 100px;
+        padding: 20px 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+        transition-duration:0.3s;
+        &:hover {
+            box-shadow: 2px 2px 5px #ccc;
+        }
+    }
+    .stepBOxInner {
+        min-width: 100px;
+        text-align: left;
+    }
+    .bottombox {
+        margin: 10px auto;
+        text-align: center;
+    }
+}
+
+.flowboxWrap{
+    background-color:#f0f2f5 ;
+    overflow: hidden;
+    .scrolllbox{
+        width: 100%;
+    }
+    .flowBox{
+        margin: 0;
+        padding: 0;
+        min-width: 3000px;
+        list-style: none;
+        font-size: 13px;
+        // :after {
+        //     content: '';
+        //     height: 0;
+        //     line-height: 0;
+        //     display: block;
+        //     visibility: hidden;
+        //     clear: both;
+        // }
+        li{
+            float: left;
+            // padding: 0 160px;  
+            border-right: 1px solid #dedede;
+            box-sizing: border-box;
+            position: relative;
+            // cursor: pointer;
+            transition: all .5s linear;
+            &:hover{
+                .connectline{
+                    border-bottom: 1px solid #1b9aee;
+                }
+                
+            }
+            // min-width: 400px;
+            &:first-child{
+                text-align: center;
+                min-width: 200px;
+                padding: 0 20px;
+                .buttonName{
+                   
+                    margin: 5px auto;
+                    text-align: center;
+                    border-radius: 20px;
+                    padding: 5px 20px;
+                    box-sizing: border-box;
+                    border: 1px solid #eee;
+                    cursor: pointer;
+                    background-color: #fff;
+                    transition: all .5s linear;
+                    &:hover{
+                        color:#1b9aee ;
+                    }
+                }
+            }
+            &:last-child{
+                min-width: 200px;
+                .buttonName{
+                    width: 120px;
+                    margin: 5px auto;
+                    text-align: center;
+                    border-radius: 20px;
+                    padding: 5px 20px;
+                    box-sizing: border-box;
+                    border: 1px solid #eee;
+                    cursor: pointer;
+                    background-color: #fff;
+                    transition: all .5s linear;
+                    &:hover{
+                        color:#1b9aee ;
+                    }
+                }
+                
+            }
+            
+           
+            .boxtitle{
+               height: 50px;
+               text-align: left;
+               span{
+                   position: absolute;
+                   left: 10px;
+                   top: 10px;
+               }
+            }
+            .childboxWrap{
+                position: relative;
+                z-index:15;
+                height: 80px;
+                padding: 0 60px;
+                box-sizing: border-box;
+                width: auto;
+                .childbox{
+                    float: left;
+                    padding: 5px 10px;
+                    position: relative;
+                    // margin-left: 30px;
+                    transition: all .5s linear;
+                    .buttonName{
+                        text-align: center;
+                        border-radius: 20px;
+                        padding: 5px 20px;
+                        box-sizing: border-box;
+                        border: 1px solid #eee;
+                        cursor: pointer;
+                        background-color: #fff;
+                      
+                    }
+                    &:hover{
+                        .addchildbutton{
+                            display: block;
+                        }
+                        .hovername{
+                            border: 1px solid #1b9aee;
+                            color: #1b9aee;
+                        }
+                        .connectline{
+                            border-bottom: 1px solid #1b9aee;
+                        }
+                    }
+                    .addchildbutton{
+                        position: absolute;
+                        top: 10px;
+                        z-index: 16;
+                        display: none;
+                    }
+                    .leftbutton{
+                        left:-20px;
+                    }
+                    .rightbutton{
+                        right:-20px;
+                    }
+                  }
+            }
+           
+            .nohover{
+                transition: all .5s linear;
+                &:hover{
+                   border: 1px solid #fff;
+                   box-shadow: 2px 2px #ccc 10px;
+                }
+            }
+            .hovername{
+                transition: all .5s linear;
+                &:hover{
+                    border: 1px solid #1b9aee;
+                    color: #1b9aee;
+                }
+            }
+           
+            .connectline{
+                position: absolute;
+                top: 68px;
+                left: 0;
+                height: 0px;
+                width: 100%;
+                z-index: 10;
+                border-bottom: 1px solid #ccc;
+                transition: all .3s ease;
+            }
+            .autoIcon{
+                position: absolute;
+                top: 55px;
+                left: 35px;
+                z-index: 16;
+               
+            }
+            // &:hover{
+            //     .addchildbutton{
+            //         display: block;
+            //     }
+            //     .hovername{
+            //         border: 1px solid #1b9aee;
+            //         color: #1b9aee;
+            //     }
+            //     .connectline{
+            //         border-bottom: 1px solid #1b9aee;
+            //     }
+            // }
+            .addicon{
+                position: absolute;
+                right: -18px;
+                top: 53px;
+                z-index: 16;
+                &:hover{
+                    .addchildbutton{
+                        display: none;
+                    }
+                }
+            }
+            .ant-btn-icon-only > * {
+                font-size: 12px!important;
+            }
+
+        }
+    }
+}
+.createhistoryLogBox{
+    overflow-y: hidden;
+    .pipeline-instance_sidebar{
+        float: left;
+        width: 220px;
+        background-color: #fff;
+        height: calc(100vh - 146px);
+        padding: 0 10px;
+       
+        font-size: 14px;
+        line-height: 40px;
+        overflow-y: scroll;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+    }
+    .pipeline-instance__content {
+        // background-color: orange;
+        margin-left: 230px;
+        height: calc(100vh - 146px);
+        box-sizing: border-box;
+        .flow-groups{
+            position: relative;
+            height: 100%;
+            white-space: nowrap;
+            overflow-x: scroll;
+            .flow-group{
+                width: 240px;
+                height: 100%;
+                margin-right: 10px;
+                display: inline-block;
+                vertical-align: top;
+                height: 100%;
+                overflow-y: auto;
+                padding-right: 20px;
+                border-right: 1px solid #e5e5e5;
+                box-sizing: border-box;
+                .bottombox{
+                    margin-top: 10px;
+                    font-size: 12px;
+                    color: #8c8c8c;
+                    padding: 0 10px;
+                }
+                &:hover{
+                    .stage {
+                        box-shadow: 2px 2px 4px #ccc;
+                    }
+                }
+                .toptitle{
+                    height: 30px;
+                    line-height: 30px;
+                }
+                .stage{
+                    box-sizing: border-box;
+                    background-color: #fff;
+                    padding: 10px;
+                    padding-bottom: 0;
+                    transition: all .3s linear;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    .cardcenter{
+                        height: 80px;
+                        text-align: center;
+                        font-size: 14px;
+                        position: relative;
+                        .centerbox{
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%,-50%);
+                        }
+                        .centerbottom{
+                            font-size: 12px;
+                            color: #8c8c8c;
+                        }
+                    }
+                    .cardfooter{
+                        height: 40px;
+                        line-height: 40px;
+                        .leftbutton{
+                            float: left;
+                            text-align: left;
+                        }
+                        .rightbutton{
+                            float: right;
+                            text-align: right;
+                            font-size: 14px;
+                            color: #8c8c8c;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+.flowWatt{
+    // height: calc(100vh - 150px);
+}
+.seacher {
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    padding: 0 20px;
+}
+.seacher{
+    .floatele{
+        float: left;
+        margin-right: 20px;
+    }
+}
+.configurationInfo{
+    textarea{
+        transition: unset!important;
+        width: 800px;
+        height: 600px;
+        resize: auto;
+        background-color: #2c2626;
+        color: #fff;
+    }
+}
+.logDrawer{
+    .ant-drawer-body{
+        padding: 0;
+    }
+}
+// .menuspan{
+//     cursor: pointer;
+// }
+body,html{
+    background-color:#f0f2f5;
+}
+.stepDiv{
+    height: 34px;
+    line-height: 34px;
+    // min-width: 420px;
+    text-align: center;
+    .stepbox{
+        width: 80px;
+        float: left;
+        height: 34px;
+        line-height: 34px;
+        position: relative;
+        margin-left: 5px;
+        .line{
+            width: 67px;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 1px;
+            border: 1px solid #666;
+            border-radius: 2px;
+            &.error{
+                border: 1px solid #f00;
+                background-color:  #f00;
+            }
+            &.success{
+                border: 1px solid rgb(0, 132, 255);
+                background-color:  rgb(0, 132, 255);
+            }
+        }
+        .stepspan{
+           position: relative;
+            height: 34px;
+            line-height: 34px;
+            float: left;
+            // margin-left: 15px;
+            cursor: pointer;
+            .dot{
+                width: 10px;
+                height: 10px;
+                border-radius: 5px;
+                position: absolute;
+                border: 1px solid #666;
+                left: 0;
+                top: 50%;
+                cursor: pointer;
+                transform: translateY(-50%);
+                background-color:  #666;
+                &.error{
+                    border: 1px solid #f00;
+                    background-color:  #f00;
+                }
+                &.success{
+                    border: 1px solid rgb(0, 132, 255);
+                    background-color:  rgb(0, 132, 255);
+                }
+              
+                
+            }
+            em{
+                font-style: normal;
+                position: absolute;
+                left: 0;
+                bottom: -13px;
+                font-size: 12px;
+                white-space: nowrap;
+                &.error{
+                    color:  #f00;
+                }
+            }
+            
+        }
+    }
+    
+}
+.cm-theme-dark{
+    .cm-editor{
+        min-height: 300px!important;
+        // width: 100%!important;
+        overflow: hidden!important;
+    }
+    .ͼ4{
+        .cm-line{
+            // display: flex;
+            // flex-wrap:wrap;
+            width: 100% !important;
+            word-wrap:break-word!important;
+        }
+    }
+}
+.peizhicodemirrow{
+    .CodeMirror-foldgutter{
+        width: 0!important;
+    }
+}
+// .configmapbox{
+   
+// }

@@ -1,0 +1,6 @@
+#sqlbox .ant-form-item {
+  margin-bottom: 10px !important;
+}
+#sqlbox .CodeMirror {
+  font-size: 12px !important;
+}

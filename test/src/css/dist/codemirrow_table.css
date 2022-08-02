@@ -1,0 +1,26 @@
+.cmExpressionsRef .CodeMirror-merge-right {
+  left: 0px;
+}
+.cmExpressionsRef .CodeMirror-merge-gap {
+  left: 47%;
+}
+.cmExpressionsRef .CodeMirror-merge-editor {
+  position: absolute;
+  right: 0;
+}
+.cmExpressionsRef .CodeMirror-merge-copy {
+  transform: rotateY(180deg);
+}
+.cmExpressionsRef .CodeMirror-foldgutter {
+  width: 0!important;
+}
+.leftspan {
+  float: left;
+}
+.rightspan {
+  float: left;
+  width: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
